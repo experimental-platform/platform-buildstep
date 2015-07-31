@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 
-echo -e "\n\n\nDEBUG-XXX: DUMPING VARIABLES\n\n"
-set
-echo -e "\n\n\nDEBUG-XXX: STARTING SOURCED COMMANDS\n\n"
+# this is triggered in herokuish/procfile-load-profile: https://github.com/gliderlabs/herokuish/blob/master/include/procfile.bash#L56
 chown -R "$unprivileged_user:$unprivileged_group" /data
