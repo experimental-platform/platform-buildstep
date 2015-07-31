@@ -6,4 +6,5 @@ RUN apt-get update && \
 
 RUN mkdir -p /etc/profile.d
 COPY prep.sh /etc/profile.d/prep.sh
-RUN chmod 755 /etc/profile.d/prep.sh
+ADD buildapp.sh /bin/buildapp.sh
+RUN chmod 755 /etc/profile.d/prep.sh /bin/buildapp.sh
