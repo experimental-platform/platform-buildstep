@@ -7,14 +7,8 @@ This is a component of the experimental platform. To read more about it please g
 
 [https://github.com/experimental-platform/platform-configure-script](https://github.com/experimental-platform/platform-configure-script)
 
-## Branch: Development
+## Branch: Latest
 
 [![Circle CI](https://circleci.com/gh/experimental-platform/platform-buildstep.svg?style=svg&circle-token=f75518ba901ac49b40ccce2c5c07e8978582d17f)](https://circleci.com/gh/experimental-platform/platform-buildstep)
 
-All development branches stem from and (re-)integrate here.
-
-## Branch: Master
-
-[![Circle CI](https://circleci.com/gh/experimental-platform/platform-buildstep/tree/master.svg?style=svg&circle-token=f75518ba901ac49b40ccce2c5c07e8978582d17f)](https://circleci.com/gh/experimental-platform/platform-buildstep/tree/master)
-
-This is the base for &alpha;-channel releases.
+All development branches stem from and (re-)integrate here. Additionally this is the base for all releases.
