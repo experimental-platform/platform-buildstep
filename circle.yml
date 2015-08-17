@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   override:
-    - docker build -t experimentalplatform/buildstep:$CIRCLE_BRANCH .
+    - docker build -t experimentalplatform/buildstep:latest .
 
 test:
   override:
@@ -15,4 +15,4 @@ deployment:
     branch: latest
     commands:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-      - docker push experimentalplatform/buildstep:$CIRCLE_BRANCH
+      - docker push experimentalplatform/buildstep:latest
